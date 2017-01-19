@@ -12,7 +12,16 @@ function initializePage() {
 	$("#testjs").click(function(e) {
 		$('.jumbotron h1').text("Javascript is connected");
 	});
+	$("a.thumbnail").click(projectClick);
 
 	// Add any additional listeners here
 	// example: $("#div-id").click(functionToCall);
+}
+
+function projectClick(e) {
+	// prevent the page from reloading
+	e.preventDefault();
+
+	// $(this) refers to the object that called it in event handling
+	$(this).css("background-color", "#7fff00");
 }

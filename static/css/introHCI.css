@@ -9,6 +9,20 @@
 	color: #CC00AA;
 }
 
+/*.project {
+     margin-left: 20px;
+     background-color: #DEEBF7;
+     padding: 20px;
+     width: 525px; 
+} */
+
+/*#project1 {
+     margin-left: 1px;
+     background-color: #ab1234;
+     padding: 1px;
+     width: 1px;
+} */
+
 /* this style exists to make it obvious that you've successfully linked
    the CSS to the page. feel free to remove it once the link is working. */
 body {
